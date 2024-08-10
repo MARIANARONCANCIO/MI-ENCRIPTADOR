@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi encriptador de texto</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <header>
+        
+        <div class="header">
+            <img class="logo" src="imagenes/Frame 6.png" alt="">
+        </div> 
+    </header>
+    <main>
+        <div class="main">
+        <div class="encriptar"> 
+            <textarea id="ingresoTexto" class="text_area " cols="30" rows="10" placeholder="Ingresa el texto aqui"></textarea> 
+            <div class="encriptar_footer">
+           <img src="imagenes/exclamacion.svg" width="20px" height="20px">
+           <span class="encriptar_info"> Solo letras minúsculas y sin acentos</span>
+    <div class="botones">
+         <button id="botonEncriptar"class="btn_encriptar" type="button">Encriptar</button> 
+         <button id="botonDesencriptar"class="btn_desencriptar" type="button">Desencriptar</button>
+        </div>
+         </div>
+        </div>  
+        <div id="encriptado"class="encriptado ">
+           <img id="buho"class="buho"src="imagenes/buho.jpg" alt="">
+            <textarea id="mensajeFinal"class="mensaje_final" placeholder="Ningun mensaje fue encontrado"></textarea>
+            <p id="informacion" class="informacion">Ingresa el texto que desees encriptar o desencriptar</p>
+            <button id="botonCopiar" class="btn_copiar oculto " type="button">Copiar</button>
+         </div>
+        </div>
+    </main>
+    <footer class="footer">
+        <p>Desarrollado por Mariana Roncancio</p>
+            <a class="github"href="https://github.com/">
+             <img src="imagenes/github.png"width="20px" height="20px"></a>
+             <a class="linkedin"href="https://co.linkedin.com/">
+                <img src="imagenes/49408.png" width="20px" height="20px"></a>
+             <a class="instagram" href="https://www.instagram.com/">
+                <img src="imagenes/Instagram.jpg" width="20px" height="20px"></a>
+  </footer>
+  <script src="encriptador.js"></script>
+</body>
+</html>
